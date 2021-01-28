@@ -2,7 +2,7 @@
     "label": "Letter Boxed Assistant",
     "title": "Assistant",
     "url": "https://letter-boxed-assistant.app/",
-    "repo": "draber/draber.github.io.git",
+    "repo": "draber/letter-boxed.git",
     "targetUrl": "https://www.nytimes.com/puzzles/letter-boxed",
     "twitter": "@d_raber",
     "prefix": "lba",

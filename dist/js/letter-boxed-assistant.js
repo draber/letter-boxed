@@ -63,7 +63,7 @@
     var label = "Letter Boxed Assistant";
     var title = "Assistant";
     var url = "https://letter-boxed-assistant.app/";
-    var repo = "draber/draber.github.io.git";
+    var repo = "draber/letter-boxed.git";
     var targetUrl = "https://www.nytimes.com/puzzles/letter-boxed";
     var prefix = "lba";
 
