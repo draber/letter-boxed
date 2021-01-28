@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "{{label}}",
+  "description": "{{description}}",
+  "homepage_url": "{{url}}",
+  "version": "{{version}}",
+  "content_scripts": [{
+    "matches": [
+      "{{targetUrl}}*"
+    ],
+    "js": [
+      "content.js"
+    ],
+    "run_at": "document_start"
+  }],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
+  "web_accessible_resources": [
+    "{{lbaFileName}}"
+  ]
+}

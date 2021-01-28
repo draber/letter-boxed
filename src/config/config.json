@@ -1,0 +1,71 @@
+{
+    "label": "Letter Boxed Assistant",
+    "title": "Assistant",
+    "url": "https://letter-boxed-assistant.app/",
+    "repo": "draber/draber.github.io.git",
+    "targetUrl": "https://www.nytimes.com/puzzles/letter-boxed",
+    "twitter": "@d_raber",
+    "prefix": "lba",
+    "extension": {
+        "manifest": {
+            "template": "src/templates/extension/manifest.json",
+            "output": "src/extension/manifest.json"
+        },
+        "update": {
+            "template": "src/templates/extension/update-info.xml",
+            "output": "dist/extension/update-info.xml"
+        },
+        "lba": "src/extension/letter-boxed-assistant.js",
+        "lba-min": "src/extension/letter-boxed-assistant.min.js",
+        "chromeStore": {
+            "url": "https://chrome.google.com/webstore/detail/letter-boxed-assistant/ncejlmlagglodbdmkfmgnadfnbhnjcpg"
+        },
+        "firefoxStore": {
+            "url": "https://addons.mozilla.org/en-US/firefox/addon/letter-boxed-assistant/"
+        },
+        "msStore": {
+            "url": "https://microsoftedge.microsoft.com/addons/detail/letter-boxed-assistant/doeniefjeejkkdfnakoflmjlmfipejin"
+        }
+    },
+    "html": {
+        "template": "src/templates/html/index.html",
+        "output": "index.html"
+    },
+    "js": {
+        "input": "src/js/main.js",
+        "plain": "dist/js/letter-boxed-assistant.js",
+        "compressed": "dist/js/letter-boxed-assistant.min.js",
+        "format": "iife"
+    },
+    "scss": {
+        "widget": "src/scss/widget.scss",
+        "site": "src/scss/site.scss",
+        "colors": "src/scss/inc/_colors.scss"
+    },
+    "bookmarklet": {
+        "cdn": {
+            "url": "https://letter-boxed-assistant.app/assets/js/letter-boxed-assistant.min.js",
+            "local": "assets/js/letter-boxed-assistant.min.js"
+        },
+        "html": {
+            "template": "src/templates/bookmarklet/installer.html",
+            "output": "dist/bookmarklet/installer.html"
+        },
+        "js": {
+            "template": "src/templates/bookmarklet/tpl.js",
+            "plain": "src/templates/bookmarklet/main.js"
+        }
+    },
+    "css": {
+        "widget": "src/css/widget.css",
+        "site": "assets/css/site.css"
+    },
+    "ga": {
+        "tid": "UA-182372232-1",
+        "ec": "lba Download"
+    },
+    "gsc": {
+        "drg": "xmUT-cNYKa8IEPI8wCAf7q55PLPknSIEfN5g6puT7HU",
+        "lba": "7vZlJKBsl3KZZRbJV474IyxJMXg64TYzSpAAoxO74-8"
+    }
+}
